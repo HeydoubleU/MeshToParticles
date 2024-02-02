@@ -9,7 +9,7 @@ The original purpose was for representing Bifrost point geometry natively in May
 
 # Install
 
-1. Copy **MeshToParticles.mll** to:
+1. Copy `MeshToParticles.mll` to:
 ```
 <documents>/maya/<version>/plug-ins
 ```
@@ -18,3 +18,8 @@ Note: the plug-ins folder may not exist and need to be created
 2. It should now be loadable via the plug-in manager
 
 <img src="https://github.com/HeydoubleU/MeshToParticles/assets/56705510/9505e180-6409-4a3e-b43b-8b6cfa2dd7f4" width="400">
+
+3. (Optional) Copy `MeshToParticlesUtils.py`:
+```
+<documents>/maya/<version>/scripts
+```
