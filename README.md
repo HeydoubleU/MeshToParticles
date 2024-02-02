@@ -15,11 +15,13 @@ The original purpose was for representing Bifrost point geometry natively in May
 ```
 Note: the plug-ins folder may not exist and need to be created
 
-2. It should now be loadable via the plug-in manager
-
-<img src="https://github.com/HeydoubleU/MeshToParticles/assets/56705510/9505e180-6409-4a3e-b43b-8b6cfa2dd7f4" width="400">
-
-3. (Optional) Copy `MeshToParticlesUtils.py`:
+2. (Optional) Copy `MeshToParticlesUtils.py`:
 ```
 <documents>/maya/<version>/scripts
 ```
+
+3. (Optional) Copy contents of `Compounds` to your bifrost compounds directory.
+
+4. Load via the plug-in manager
+
+<img src="https://github.com/HeydoubleU/MeshToParticles/assets/56705510/9505e180-6409-4a3e-b43b-8b6cfa2dd7f4" width="400">
