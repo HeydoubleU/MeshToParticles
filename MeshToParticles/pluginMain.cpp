@@ -229,7 +229,7 @@ MStatus initializePlugin(MObject obj)
 	MStatus status;
 	MFnPlugin plugin(obj, "Hyuu", "0.0");
 	status = plugin.registerNode("meshToParticles", MeshToParticles::id, MeshToParticles::creator, MeshToParticles::initialize);
-	MGlobal::displayInfo("MeshToParticles loaded yayeet");
+	MGlobal::displayInfo("MeshToParticles loaded");
 	return MS::kSuccess;
 }
 
@@ -238,6 +238,6 @@ MStatus uninitializePlugin(MObject obj)
 	MStatus status;
 	MFnPlugin plugin(obj);
 	status = plugin.deregisterNode(MeshToParticles::id);
-	MGlobal::displayInfo("MeshToParticles unloaded yeetya");
+	MGlobal::displayInfo("MeshToParticles unloaded");
 	return MS::kSuccess;
 }
