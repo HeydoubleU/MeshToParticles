@@ -4,10 +4,12 @@ Maya api node for creating particles at mesh vertices. These particles are not e
 
 The original purpose was for representing Bifrost point geometry natively in Maya. However it's made to be general purpose and may be useful for other applications.
 
+For usage examples:
+https://www.youtube.com/watch?v=CB2TSgdEJPo
+
 <img src="https://github.com/HeydoubleU/MeshToParticles/assets/56705510/928641cb-4ce2-45a0-9972-51723a7b5b82" width="600">
 
-
-# Install
+## Install
 
 1. Copy `MeshToParticles.mll` to:
 ```
@@ -27,7 +29,7 @@ Note: the plug-ins folder may not exist and need to be created
 <img src="https://github.com/HeydoubleU/MeshToParticles/assets/56705510/9505e180-6409-4a3e-b43b-8b6cfa2dd7f4" width="400">
 
 
-# Utilities
+## Utilities
 
 ```py
 import MeshToParticlesUtils as mtpu
