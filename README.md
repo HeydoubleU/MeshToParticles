@@ -25,3 +25,20 @@ Note: the plug-ins folder may not exist and need to be created
 4. Load via the plug-in manager
 
 <img src="https://github.com/HeydoubleU/MeshToParticles/assets/56705510/9505e180-6409-4a3e-b43b-8b6cfa2dd7f4" width="400">
+
+
+# Utilities
+
+```py
+import MeshToParticlesUtils as mtpu
+
+# Creates particles from specified meshes, if None uses selection
+# world_mesh determines witch mesh attribute is used, .worldMesh/.outMesh.
+mtpu.meshToParticles(meshes=None, world_mesh=True)
+
+# Creates particles from the specified Bifrost graph's attribute, eg. 'bifrostGraphShape1.out_mesh'
+mtpu.bifrostToParticles(bif_attr)
+
+# Opens dialog window to select a port to create particles from, bifrost graph/board must be selected first.
+mtpu.bifrostToParticlesDialog()
+```
