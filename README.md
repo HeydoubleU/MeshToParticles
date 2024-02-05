@@ -33,7 +33,7 @@ Note: the plug-ins folder may not exist and need to be created
 import MeshToParticlesUtils as mtpu
 
 # Creates particles from specified meshes, if None uses selection
-# world_mesh determines witch mesh attribute is used, .worldMesh/.outMesh.
+# world_mesh determines which mesh attribute is used, .worldMesh/.outMesh.
 mtpu.meshToParticles(meshes=None, world_mesh=True)
 
 # Creates particles from the specified Bifrost graph's attribute, eg. 'bifrostGraphShape1.out_mesh'
